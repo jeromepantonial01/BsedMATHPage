@@ -1,0 +1,236 @@
+<!DOCTYPE a
+<html lang="en">
+<head>
+    <title>Davao Vision Colleges, Inc. | BSEd Mathematics Department</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Davao Vision Colleges, Inc.">
+    <meta name="description" content="Official website of Davao Vision Colleges, Inc., featuring the BSEd Mathematics Department.">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic components -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Custom Tailwind Configuration for DVCI Theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dvci-primary': '#1E3A8A', // Deep Blue
+                        'dvci-secondary': '#FBBF24', // Amber/Gold
+                        'dvci-text': '#374151',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        .scroll-mt-header {
+            scroll-margin-top: 100px; /* Adjust based on fixed header height */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-dvci-text">
+
+    <!-- Header & Navigation START -->
+    <header class="shadow-lg bg-white sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <!-- Mock Logo/Branding -->
+                <div class="text-3xl font-extrabold text-dvci-primary">DVC</div>
+                <div class="text-sm font-semibold hidden sm:block">DVC BSEd Math</div>
+            </a>
+            <div class="space-x-4">
+                <!-- Links now focused on Math department sections -->
+                <a href="#bsed-math" class="text-dvci-primary hover:text-dvci-secondary font-medium">Program</a>
+                <a href="#gallery" class="text-dvci-primary hover:text-dvci-secondary font-medium">Activities</a>
+                <a href="#faculty" class="text-dvci-primary hover:text-dvci-secondary font-medium">Faculty & Staff</a>
+                <a href="#" class="bg-dvci-secondary text-dvci-primary font-bold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-200">Apply Now</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Header & Navigation END -->
+
+    <main>
+        <!-- Hero Section (Focused on BSEd Math Department) -->
+        <section class="relative h-96 bg-dvci-primary overflow-hidden" id="dvci-hero">
+            <!-- Increased opacity slightly to make text stand out more against the background -->
+            <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFuWvM4awmDOE5XEiJQtMOVwnFl4EcsT34Tw&s');"></div>
+            <div class="relative container mx-auto px-4 h-full flex flex-col justify-center text-white">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-fadeInUp">BSEd Mathematics Department</h1>
+                <p class="text-xl md:text-2xl font-light">Cultivating the Next Generation of Critical Thinkers and Educators</p>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <div class="container mx-auto px-4 py-12">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+
+                <!-- Primary Content Column (Math Program, Gallery, Faculty) -->
+                <div class="lg:col-span-9 mb-12">
+
+                    <!-- BSEd Mathematics Department Section -->
+                    <section id="bsed-math" class="scroll-mt-header pt-0 mb-12">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-6 border-b-4 border-dvci-secondary pb-2">Bachelor of Secondary Education Major in Mathematics</h2>
+
+                        <div class="bg-dvci-primary/5 p-6 rounded-xl shadow-xl border-l-4 border-dvci-primary">
+                            <h3 class="text-2xl font-semibold text-dvci-primary mb-3">Program Overview</h3>
+                            <p class="mb-4 text-gray-700">The BSEd Mathematics program at DVCI is dedicated to producing highly competent, innovative, and reflective mathematics educators. Our curriculum integrates advanced mathematical concepts with modern pedagogical strategies, ensuring graduates are prepared to inspire the next generation of critical thinkers and problem solvers.</p>
+
+                            <!-- DVCI Contact Details moved here to maintain access to crucial school info -->
+                            <div class="mt-8 pt-4 border-t border-gray-200">
+                                <h4 class="text-xl font-semibold text-dvci-primary mb-3 flex items-center"><i data-lucide="info" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Quick Contact Info</h4>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-center"><i data-lucide="map-pin" class="w-4 h-4 mr-2 text-dvci-secondary"></i> Stone Rock Village, Catalunan Grande, Davao City</li>
+                                    <li class="flex items-center"><i data-lucide="phone" class="w-4 h-4 mr-2 text-dvci-secondary"></i> <a href="tel:09511649654" class="hover:underline">(0951-164-9654) DVCI</a> / (082) 555-MATH</li>
+                                </ul>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 gap-6 mt-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-dvci-primary flex items-center"><i data-lucide="target" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Vision</h4>
+                                    <p class="text-sm text-gray-600 mt-1">To be the premier Mathematics Teacher Education program in Mindanao, recognized for academic excellence, ethical practice, and community engagement.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-dvci-primary flex items-center"><i data-lucide="rocket" class="w-5 h-5 mr-2 text-dvci-secondary"></i> Mission</h4>
+                                    <p class="text-sm text-gray-600 mt-1">To provide holistic, quality education that equips future math teachers with deep subject matter knowledge and transformative teaching skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                     <!-- Activities Photo Gallery Section -->
+                     <section id="gallery" class="scroll-mt-header pt-8 mb-12 animate-reveal">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-6 border-b-4 border-dvci-secondary pb-2">Department Activities Gallery</h2>
+                        <p class="mb-8 text-lg text-gray-600">See highlights from recent events and initiatives by the Mathematics Royal Society and the BSEd Math Department.</p>
+                        <div id="image-gallery" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                            <!-- Image 1 -->
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-6/486750007_505986312572521_7507565837805277084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGAkmQDFtI0VydkSM4P8E24dUtujRW68kR1S26NFbryRJmF7Bjxn9KuKRlevcqcKJOFMZd5aKDef97mgN89gR8U&_nc_ohc=6zVDqspKQdYQ7kNvwEFNoo2&_nc_oc=AdncBZAsaCNYacUtJRsuC3t9UX9zeJJfsebLWT9yG76ts08AC0RO_zYoCxdFvC3LGc3wZgO0HtBwtb-Zt2ATwrx9&_nc_zt=23&_nc_ht=scontent-mnl3-1.xx&_nc_gid=Gp4hYaJV1yhKR8NvM9ynkw&oh=00_AfiskM4oKfZG6Yo_XMteDY7zCq2TLqNXXMMSLTNce9vIpQ&oe=690E29EA" alt="Mathematics Royal Society Group Photo" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Mathematics Royal Society Group Photo</p>
+                                </div>
+                            </div>
+
+                            <!-- Image 2 -->
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-6/530548775_611933515311133_4011292059272252185_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHinKzc8waJ2pO3aQfOeMod4VAthQDIbV3hUC2FAMhtXSWBwDc_swHm_HKwmRgwPIngp9SMvlH4zuZeq0xCxvGo&_nc_ohc=lWN9YZqPZ-kQ7kNvwHX99nT&_nc_oc=Adlb48VENQXbBB-9mbMNml6oJE8zVTrA2ibZF_mbgxp1sPBH3mbrzn1jmr8QkEtd0JicIHjqGQ96eNB4nPx8Cap-&_nc_zt=23&_nc_ht=scontent-mnl3-1.xx&_nc_gid=0fj9aOgLOgjGQBlvLVTNKg&oh=00_Afg7_N2S5haWw1mFeSN6yR2pQEpd0JYrfUztdQ93dN26Qg&oe=690E1191" alt="Math Problem of the Week Announcement" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Announcement: Join the Math Problem of the Week!</p>
+                                </div>
+                            </div>
+
+                            <!-- Image 3 -->
+                            <div class="relative bg-white rounded-xl shadow-lg overflow-hidden group">
+                                <img src="https://scontent.fdvo1-2.fna.fbcdn.net/v/t39.30808-6/481058388_489883400849479_6477722212930619497_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEc2GOIRYTfSwGzqUC7GpVbHgXcnLs9CzseBdycuz0LO4D8ilBc6nggI0T7guOtTnyjmZjVvfOuQZtPAwcOShqw&_nc_ohc=le2leltk0QsQ7kNvwEYlz8-&_nc_oc=Adl9ag3vYJuBOQCBZnVZP9kFADz0w0QPQ7Ex9EnE_cwsoBJKbkWurToTDzx71UExedI&_nc_zt=23&_nc_ht=scontent.fdvo1-2.fna&_nc_gid=FkSp8bLsrEgX9612WTMDfg&oh=00_Affs47vCfGd53L_6g30iB7Ezzn8M8feJtvDSBrsYnOrB-g&oe=690AB538" alt="Philippine Statistics Quiz Bee" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                    <p class="text-white text-center font-semibold">Philippine Statistics Quiz Bee Qualifying Examination</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Faculty Profiles, Portfolios, and Blogs -->
+                    <section id="faculty" class="scroll-mt-header pt-8">
+                        <h2 class="text-3xl font-bold text-dvci-primary mb-8 border-b-4 border-dvci-secondary pb-2">Meet The Faculty & Staff</h2>
+
+                        <div id="faculty-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                            
+                            <!-- Faculty Card 1: Dr (Static HTML) -->
+                            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-dvci-primary transition duration-300 flex flex-col items-center text-center">
+                                <!-- Initial of the name as a mock profile picture -->
+                                <div class="w-20 h-20 bg-dvci-secondary rounded-full flex items-center justify-center mb-4 text-3xl text-white font-bold">Dr</div>
+                                <h4 class="text-xl font-bold text-dvci-primary">Dr. Consolation Garcia</h4>
+                                <p class="text-sm text-gray-500 mb-4">Program Head</p>
+                                <!-- Portfolio and Blog links are intentionally omitted -->
+                            </div>
+
+                            <!-- Faculty Card 2: Revimaica (Static HTML) -->
+                            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-dvci-primary transition duration-300 flex flex-col items-center text-center">
+                                <!-- Initial of the name as a mock profile picture -->
+                                <div class="w-20 h-20 bg-dvci-secondary rounded-full flex items-center justify-center mb-4 text-3xl text-white font-bold">R</div>
+                                <h4 class="text-xl font-bold text-dvci-primary">Ms.Revimaica Melendrez</h4>
+                                <p class="text-sm text-gray-500 mb-4">Full-time Instructor</p>
+                                <!-- Portfolio and Blog links are intentionally omitted -->
+                            </div>
+
+                            <!-- Faculty Card 3: El lascuna (Static HTML) -->
+                            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-dvci-primary transition duration-300 flex flex-col items-center text-center">
+                                <!-- Initial of the name as a mock profile picture -->
+                                <div class="w-20 h-20 bg-dvci-secondary rounded-full flex items-center justify-center mb-4 text-3xl text-white font-bold">El</div>
+                                <h4 class="text-xl font-bold text-dvci-primary">El Lascuña</h4>
+                                <p class="text-sm text-gray-500 mb-4">Adviser</p>
+                                <!-- Portfolio and Blog links are intentionally omitted -->
+                            </div>
+
+                        </div>
+
+                        <!-- The previous detail modal section has been removed. -->
+                    </section>
+                </div>
+
+                <!-- Sidebar Content Column (Quick Links are now department-focused) -->
+                <div class="lg:col-span-3">
+                    <div class="lg:sticky lg:top-24 bg-white p-6 rounded-xl shadow-xl">
+                        <h4 class="text-2xl font-bold text-dvci-primary mb-4">Quick Links</h4>
+                        <ul class="space-y-2 text-lg">
+                            <li><a href="#bsed-math" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Program Overview</a></li>
+                            <li><a href="#gallery" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Activities Gallery</a></li>
+                            <li><a href="#faculty" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Faculty Profiles</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-dvci-secondary transition duration-150 flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 mr-2"></i> Admissions</a></li>
+                        </ul>
+
+                        <div class="mt-8 pt-4 border-t border-gray-200">
+                            <h4 class="text-2xl font-bold text-dvci-primary mb-4">Announcements</h4>
+                            <div class="space-y-3 text-sm text-gray-600">
+                                <p class="border-l-2 border-dvci-secondary pl-2">Math Camp registration ends next Friday!</p>
+                                <p class="border-l-2 border-dvci-secondary pl-2">Faculty meeting on 15th, 2 PM.</p>
+                                <p class="border-l-2 border-dvci-secondary pl-2">Enrollment for next semester is open.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer START -->
+    <footer class="bg-dvci-primary text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Davao Vision Colleges, Inc. All rights reserved. | Vision, Integrity, Excellence.</p>
+        </div>
+    </footer>
+    <!-- Footer END -->
+
+    <script>
+        // All faculty data and generation logic have been removed, as the cards are now static HTML.
+        
+        // Initialize Lucide Icons on load
+        window.onload = function() {
+            lucide.createIcons();
+            // Start the simple scroll animation listener
+            window.addEventListener("scroll", reveal);
+        };
+
+        // Simple scroll observer for animations (Ensures 'animate-fadeInUp' class is added on scroll)
+        function reveal() {
+            var reveals = document.querySelectorAll(".animate-fadeInUp");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
